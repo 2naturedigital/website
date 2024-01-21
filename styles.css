@@ -58,10 +58,19 @@ header .header-right nav {
 
 .pageTop {
     padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.pageTop figure {
+    padding-left: 2rem;
 }
 
 .mainImage img {
     height: 470px;
     width: 310px;
     object-fit: cover;
+    object-position: 65% 0;
 }

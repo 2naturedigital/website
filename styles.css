@@ -4,3 +4,46 @@
 
 
 */
+
+/* ------- remove default browser formatting ------- */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: baseline;
+}
+
+
+/* ------------ custom properties ------------ */
+
+
+
+/* ----------- Full Page ------------ */
+body {
+    background-color: yellow;
+}
+
+
+/* ----------- Navigation ------------ */
+header {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header .header-right {
+    width: 100%;
+}
+
+header .header-right nav {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+header .header-right nav a {
+    margin: 0;
+}

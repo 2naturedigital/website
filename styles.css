@@ -20,7 +20,7 @@
 
 /* ----------- Full Page ------------ */
 body {
-    background-color: yellow;
+    background-color: yellowgreen;
 }
 
 
@@ -55,3 +55,8 @@ header .header-right nav {
 
 
 /* ----------- PageTop ------------ */
+
+
+.mainImage img {
+    height: 300px;
+}

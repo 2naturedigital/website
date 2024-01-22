@@ -102,3 +102,16 @@ header .header-right nav {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+
+/* ----------- PageMiddle ------------ */
+
+.projects-and-resources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.projects h2 {
+    margin: 1rem 0 2rem 1rem;
+}

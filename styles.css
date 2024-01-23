@@ -107,11 +107,29 @@ header .header-right nav {
 /* ----------- PageMiddle ------------ */
 
 .projects-and-resources {
+    background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.projects {
+    background-color: green;
+    justify-self: center;
 }
 
 .projects h2 {
-    margin: 1rem 0 2rem 1rem;
+    background-color: yellow;
+    margin: 1rem 0 2rem;
+    text-align: center;
+}
+
+.resources {
+    background-color: bisque;
+    justify-self: start;
+}
+
+.resources ul {
+    list-style-type: none;
 }

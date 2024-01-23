@@ -52,3 +52,32 @@ header .header-right nav {
     align-items: center;
     padding-right: 10px;
 }
+
+/* ----------- TableOfContents ------------ */
+#toc-container {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 8rem;
+    margin-right: 2rem;
+}
+
+#toc-list {    
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 1.5rem;
+}
+
+#toc-list ul {
+    
+    list-style-type: none;
+}
+
+
+/* ----------- PageContent ------------ */
+.pp-content-container {
+    width: 65vw;
+    background-color: aqua;
+    margin-left: 2rem;
+}
+

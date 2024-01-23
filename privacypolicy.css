@@ -71,11 +71,11 @@ header .header-right nav {
 
 #toc-list ul {
     list-style-type: none;
-    color: black;
 }
 
 #toc-list ul a {    
     text-decoration: none;
+    color: black;
 }
 
 

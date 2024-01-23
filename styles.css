@@ -130,6 +130,9 @@ header .header-right nav {
     justify-self: start;
 }
 
+.resources h2 {    
+    margin: 1rem 0 2rem;
+}
 .resources ul {
     list-style-type: none;
 }

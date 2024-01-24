@@ -136,3 +136,35 @@ header .header-right nav {
 .resources ul {
     list-style-type: none;
 }
+
+/* ----------- PageBottom ------------ */
+
+.contact-section {
+    background-color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#name-form {
+    padding-top: 2rem;
+}
+
+#email-form {
+    padding-top: 1rem;
+}
+
+#message-form {
+    padding-top: 1rem;
+}
+
+.form input {
+    background-color: antiquewhite;
+    padding: .5rem;
+    width: clamp(20rem, 10vh, 4rem);
+}
+
+.form textarea {
+    background-color: antiquewhite;
+    padding: .5rem;
+    width: clamp(20rem, 10vh, 4rem);
+}

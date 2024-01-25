@@ -28,6 +28,7 @@
 /* ----------- Full Page ------------ */
 body {
     background-color: var(--fourthColor);
+    font-family: "Cabin Condensed", sans-serif;
 }
 .shadows-into light-regular {
     font-family: "Shadows Into Light", cursive;
@@ -87,7 +88,6 @@ header .header-right nav a {
     justify-content: center;
     gap: 3rem;
     color: var(--secondaryColor);
-    font-family: "Cabin Condensed", sans-serif;
     box-shadow: 0 10px 10px black;
     z-index: 999;
 }
@@ -146,7 +146,6 @@ header .header-right nav a {
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    font-family: "Cabin Condensed", sans-serif;
     background-color: var(--primaryColor);
 }
 
@@ -179,7 +178,6 @@ header .header-right nav a {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    font-family: "Cabin Condensed", sans-serif;
 }
 
 .contact-us {

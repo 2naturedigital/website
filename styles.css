@@ -27,7 +27,7 @@
 
 /* ----------- Full Page ------------ */
 body {
-    background-color: var(--fourthColor);
+    background-color: white;
     font-family: "Cabin Condensed", sans-serif;
 }
 .shadows-into light-regular {
@@ -146,7 +146,6 @@ header .header-right nav a {
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: white;
 }
 
 .projects {
@@ -174,7 +173,6 @@ header .header-right nav a {
 /* ----------- PageBottom ------------ */
 
 .contact-section {
-    background-color: white;
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -216,7 +214,7 @@ header .header-right nav a {
 
 .form input:focus, 
 .form textarea:focus {
-    outline: 2px solid blueviolet;
+    outline: 2px solid var(--primaryColor);
 }
 
 .form-side button {

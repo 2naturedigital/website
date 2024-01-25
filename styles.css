@@ -73,6 +73,10 @@ header .header-right nav {
     width: 310px;
     object-fit: cover;
     object-position: 65% 0;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .mainText {
@@ -164,10 +168,11 @@ header .header-right nav {
 
 .form input, 
 .form textarea {
-    background-color: antiquewhite;
+    background-color: rgb(238, 238, 238);
     padding: .5rem;
     width: clamp(20rem, 10vh, 4rem);
     border-radius: 5px;
+    box-shadow: 2px 0 5px rgb(119, 119, 119);
 }
 
 
@@ -179,7 +184,7 @@ header .header-right nav {
 
 .form input:focus, 
 .form textarea:focus {
-    outline: 2px solid green;
+    outline: 2px solid blueviolet;
 }
 
 .form-side button {
@@ -188,7 +193,8 @@ header .header-right nav {
     padding-bottom: .5rem;
     width: 100%;
     border-radius: 8px;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 2px 0 5px rgb(119, 119, 119);
+    background-color: yellowgreen;
 }
 
 .blurbside {

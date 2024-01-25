@@ -15,13 +15,32 @@
 
 
 /* ------------ custom properties ------------ */
+:root {
+    --primaryColor: rgb(154, 205, 50);
+    --secondaryColor: rgb(236, 164, 0);
+    --tertiaryColor: rgb(0, 105, 146);
+    --fourthColor: rgb(39, 71, 110);
+    --fifthColor: rgb(0, 29, 74);
+}
 
 
 
 /* ----------- Full Page ------------ */
 body {
-    background-color: yellowgreen;
+    background-color: var(--fourthColor);
 }
+.shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } 
+
+  .cabin-condensed-regular {
+    font-family: "Cabin Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 
 /* ----------- Navigation ------------ */
@@ -53,6 +72,11 @@ header .header-right nav {
     padding-right: 10px;
 }
 
+header .header-right nav a {
+    color: var(--fifthColor);
+    text-decoration: none;
+}
+
 
 /* ----------- PageTop ------------ */
 
@@ -62,6 +86,10 @@ header .header-right nav {
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
+    color: var(--secondaryColor);
+    font-family: "Cabin Condensed", sans-serif;
+    box-shadow: 0 10px 10px black;
+    z-index: 999;
 }
 
 .pageTop figure {
@@ -87,6 +115,7 @@ header .header-right nav {
     font-size: clamp(2rem,6vw,4rem);
     line-height: 1.25;
     text-rendering: geometricPrecision;
+    font-family: 'Shadows Into Light', 'Ink Free', 'sans-serif';
 }
 
 .mainText h1 span {
@@ -117,10 +146,13 @@ header .header-right nav {
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    font-family: "Cabin Condensed", sans-serif;
+    background-color: var(--primaryColor);
 }
 
 .projects {
     justify-self: center;
+    background-color: var(--tertiaryColor);
 }
 
 .projects h2 {
@@ -130,6 +162,7 @@ header .header-right nav {
 
 .resources {
     justify-self: start;
+    background-color: var(--tertiaryColor);
 }
 
 .resources h2 {    
@@ -146,6 +179,7 @@ header .header-right nav {
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    font-family: "Cabin Condensed", sans-serif;
 }
 
 .contact-us {
@@ -194,7 +228,7 @@ header .header-right nav {
     width: 100%;
     border-radius: 8px;
     box-shadow: 2px 0 5px rgb(119, 119, 119);
-    background-color: yellowgreen;
+    background-color: var(--secondaryColor);
 }
 
 .blurbside {

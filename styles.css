@@ -107,7 +107,6 @@ header .header-right nav {
 /* ----------- PageMiddle ------------ */
 
 .projects-and-resources {
-    background-color: lightblue;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
@@ -117,18 +116,15 @@ header .header-right nav {
 }
 
 .projects {
-    background-color: green;
     justify-self: center;
 }
 
 .projects h2 {
-    background-color: yellow;
     margin: 1rem 0 2rem;
     text-align: center;
 }
 
 .resources {
-    background-color: bisque;
     justify-self: start;
 }
 
@@ -148,26 +144,62 @@ header .header-right nav {
     padding-bottom: 5rem;
 }
 
+.contact-us {
+    padding-top: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
 #name-form {
     padding-top: 2rem;
 }
 
-#email-form {
-    padding-top: 1rem;
-}
-
+#email-form, 
 #message-form {
     padding-top: 1rem;
 }
 
-.form input {
-    background-color: antiquewhite;
-    padding: .5rem;
-    width: clamp(20rem, 10vh, 4rem);
-}
 
+.form input, 
 .form textarea {
     background-color: antiquewhite;
     padding: .5rem;
     width: clamp(20rem, 10vh, 4rem);
+    border-radius: 5px;
+}
+
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-weight: bold;
+    opacity: .5;
+}
+
+.form input:focus, 
+.form textarea:focus {
+    outline: 2px solid green;
+}
+
+.form-side button {
+    margin-top: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.blurbside {
+    padding-top: 10rem;
+    width: 50%;
+}
+
+.blurbside p {
+    padding-top: 1rem;
+}
+
+.contactdetails {
+    padding-top: 3rem;
 }

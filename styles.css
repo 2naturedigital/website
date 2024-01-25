@@ -48,6 +48,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    background-color: var(--primaryColor);
 }
 
 header .header-left {
@@ -88,8 +89,7 @@ header .header-right nav a {
     justify-content: center;
     gap: 3rem;
     color: var(--secondaryColor);
-    box-shadow: 0 10px 10px black;
-    z-index: 999;
+    z-index: 999;    
 }
 
 .pageTop figure {
@@ -146,12 +146,12 @@ header .header-right nav a {
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: var(--primaryColor);
+    background-color: white;
 }
 
 .projects {
     justify-self: center;
-    background-color: var(--tertiaryColor);
+    background-color: var(--primaryColor);
 }
 
 .projects h2 {
@@ -161,7 +161,7 @@ header .header-right nav a {
 
 .resources {
     justify-self: start;
-    background-color: var(--tertiaryColor);
+    background-color: var(--secondaryColor);
 }
 
 .resources h2 {    
@@ -240,4 +240,11 @@ header .header-right nav a {
 
 .contactdetails {
     padding-top: 3rem;
+}
+
+/* ---------FOOTER--------- */
+footer {
+    text-align: center;
+    background-color: var(--primaryColor);
+    padding: 1rem;
 }

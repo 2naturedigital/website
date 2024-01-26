@@ -188,9 +188,12 @@ header .header-right nav a {
 .wave {
     position: absolute;
     z-index: -999;
+    margin-top: -1.1rem;
     transform: rotate(180deg);
-    margin-top: -2rem;
 }
+
+
+
 
 /* ----------- PageMiddle ------------ */
 

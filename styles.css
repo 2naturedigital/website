@@ -109,6 +109,22 @@ header .header-right nav a {
     border-bottom-right-radius: 5px;
 }
 
+.seal img {
+    scale: 30%;
+    position: absolute;
+    margin-left: -14rem;
+    margin-top: 16rem;
+}
+
+.heroImage::after {
+    content: url(https://raw.githubusercontent.com/2naturedigital/website/main/assets/hero-image-frame.svg);
+    position: absolute;
+    margin-left: -24.5rem;
+    margin-top: -7rem;
+    scale: 75%;
+    z-index: -999;
+}
+
 .mainText {
     align-self: center;
 }

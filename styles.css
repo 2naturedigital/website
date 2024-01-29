@@ -185,12 +185,15 @@ header .header-right nav a {
 }
 
 /* wave */
-.wave {
+.pageTop .wave {
+    height: 10rem;
+    width: 100vw;
     position: absolute;
     top: 2rem;
+    z-index: -999;
     transform: rotate(180deg);
     animation: wave 7s linear infinite;
-    background: url(wave.svg);
+    background: url(https://raw.githubusercontent.com/2naturedigital/website/main/assets/wave.svg);
 }
 
 @keyframes wave {
@@ -198,7 +201,7 @@ header .header-right nav a {
         background-position-x: 0;
     }
     100% {
-        background-position-x: 1000px;
+        background-position-x: 100vw;
     }
 }
 

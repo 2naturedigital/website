@@ -47,10 +47,13 @@ body {
 header {
     display: flex;
     flex-direction: row;
+    background-color: var(--primaryColor);
 }
 
 header .header-left {
     padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 header .header-left a {
@@ -71,6 +74,7 @@ header .header-right nav {
     align-items: center;
     padding-right: 10px;
 }
+
 header .header-right nav a {
     color: var(--fifthColor);
     text-decoration: none;
@@ -99,6 +103,13 @@ header .header-right nav a {
 #toc-list ul a {    
     text-decoration: none;
     color: black;
+}
+
+@media (max-width:1000px) {
+    #toc-container {
+        top: auto;
+        margin-top: 30px;
+    }
 }
 
 

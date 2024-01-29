@@ -1,2 +1,2 @@
 # website
-Our homepage
+[Our homepage](https://2naturedigital.github.io/website/)

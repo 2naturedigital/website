@@ -187,11 +187,20 @@ header .header-right nav a {
 /* wave */
 .wave {
     position: absolute;
-    z-index: -999;
     top: 2rem;
     transform: rotate(180deg);
+    animation: wave 7s linear infinite;
+    background: url(wave.svg);
 }
 
+@keyframes wave {
+    0% {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
 
 
 

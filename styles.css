@@ -209,14 +209,17 @@ header .header-right nav a {
 
 /* ----------- PageMiddle ------------ */
 
+
 .projects-and-resources {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5rem;
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
+    gap: 2rem;
 }
+
+/* projects side */
 
 .projects {
     justify-self: center;
@@ -228,9 +231,29 @@ header .header-right nav a {
     text-align: center;
 }
 
+.project-list li {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 2rem 3rem;
+}
+
+.project-list .text {
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    text-wrap: nowrap;
+    text-align: center;
+}
+
+
+.project-list .deodorant img {
+    object-fit: cover;
+}
+
+/* resource side */
 .resources {
     justify-self: start;
     background-color: var(--secondaryColor);
+    width: 30rem;
+    text-align: center;
 }
 
 .resources h2 {    
@@ -239,6 +262,20 @@ header .header-right nav a {
 .resources ul {
     list-style-type: none;
 }
+
+.resources li {
+    padding: 1rem;
+    text-align: left;
+}
+
+.resources a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
 
 /* ----------- PageBottom ------------ */
 

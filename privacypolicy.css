@@ -109,7 +109,7 @@ header .header-right nav a {
 /* ----------- PageContent ------------ */
 .pp-content-container {
     width: 65vw;
-    margin-left: 2rem;
+    margin: -20rem 1rem;
 }
 
 .pp-content-container .section-title {
@@ -129,7 +129,8 @@ header .header-right nav a {
 @media (max-width:1000px) {
     #toc-container {
         top: auto;
-        margin-top: 30px;
+        margin: 2rem auto 0 auto;
+        justify-content: center;
     }
     .pp-content-container {
         width: auto;

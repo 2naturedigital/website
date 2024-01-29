@@ -228,6 +228,11 @@ header .header-right nav a {
     text-align: center;
 }
 
+.project-list li {
+    display: flex;
+    flex-direction: column;
+}
+
 .resources {
     justify-self: start;
     background-color: var(--secondaryColor);

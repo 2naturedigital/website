@@ -192,8 +192,8 @@ header .header-right nav a {
     top: 2rem;
     z-index: -999;
     transform: rotate(180deg);
-    animation: wave 5s linear infinite;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg);
+    animation: wave 15s linear infinite;
+    background: url(https://raw.githubusercontent.com/2naturedigital/website/main/assets/wave2.svg);
 }
 
 @keyframes wave {

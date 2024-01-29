@@ -239,6 +239,12 @@ header .header-right nav a {
     text-wrap: nowrap;
     text-align: center;
 }
+
+
+.project-list .deodorant img {
+    object-fit: cover;
+}
+
 .resources {
     justify-self: start;
     background-color: var(--secondaryColor);

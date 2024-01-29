@@ -1,8 +1,5 @@
 /* TODO 
 1. add dark/light theme toggle
-
-
-
 */
 
 /* ------- remove default browser formatting ------- */
@@ -126,6 +123,7 @@ header .header-right nav a {
     margin-left: 25px;
 }
 
+/* ----------- Media ------------ */
 @media (max-width:1000px) {
     #toc-container {
         top: auto;

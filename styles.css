@@ -355,3 +355,12 @@ footer {
     background-color: var(--primaryColor);
     padding: 1rem;
 }
+
+
+/* ----------MEDIA---------- */
+
+@media (maxwidth:950px) {
+    .resources img {
+        display: none;
+    }
+}

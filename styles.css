@@ -224,6 +224,7 @@ header .header-right nav a {
 .projects {
     justify-self: center;
     background-color: var(--primaryColor);
+    margin-left: 2rem;
 }
 
 .projects h2 {
@@ -254,6 +255,7 @@ header .header-right nav a {
     background-color: var(--secondaryColor);
     width: 30rem;
     text-align: center;
+    margin-right: 2rem;
 }
 
 .resources h2 {    

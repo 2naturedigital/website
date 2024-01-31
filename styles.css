@@ -211,19 +211,21 @@ header .header-right nav a {
 
 
 .projects-and-resources {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 /* projects side */
 
 .projects {
-    justify-self: center;
+    align-self: center;
     background-color: var(--primaryColor);
+    margin-left: 2rem;
+    width: 23rem;
 }
 
 .projects h2 {
@@ -234,7 +236,8 @@ header .header-right nav a {
 .project-list li {
     display: flex;
     flex-direction: column;
-    padding: 0 2rem 2rem 3rem;
+    justify-content: center;
+    padding: 0 2rem 2rem 2rem;
 }
 
 .project-list .text {
@@ -250,10 +253,11 @@ header .header-right nav a {
 
 /* resource side */
 .resources {
-    justify-self: start;
+    align-self: center;
     background-color: var(--secondaryColor);
     width: 30rem;
     text-align: center;
+    margin-right: 2rem;
 }
 
 .resources h2 {    
@@ -352,4 +356,56 @@ footer {
     text-align: center;
     background-color: var(--primaryColor);
     padding: 1rem;
+}
+
+
+/* ----------MEDIA---------- */
+
+@media (max-width:950px) {
+    .resources li a img {
+        display: none;
+    }
+    .resources {
+        width: 25rem;
+        margin-right: 0;
+    }
+}
+
+@media (max-width:850px) {
+    .pageTop {
+        flex-direction: column;
+    }
+    .pageTop figure {
+        align-self: center;
+    }
+    .projects-and-resources {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .projects {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact-us {
+        flex-direction: column;
+    }
+    .blurbside {
+        align-self: center;
+        padding-top: 2rem;
+    }
+    .form-side button {
+        width: 90%;
+    }
+}
+
+@media (max-width:400px) {
+    .projects {
+        width: 90%;
+    }
+    .resources {
+        width: 90%;
+    }
 }

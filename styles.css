@@ -1,4 +1,4 @@
-/* TODO 
+/* TODO
 1. add dark/light theme toggle
 
 
@@ -34,14 +34,14 @@ body {
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: normal;
-  } 
+  }
 
   .cabin-condensed-regular {
     font-family: "Cabin Condensed", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+
 
 
 /* ----------- Navigation ------------ */
@@ -91,7 +91,7 @@ header .header-right nav a {
     justify-content: center;
     gap: 5rem;
     color: var(--fifthColor);
-    z-index: 999;    
+    z-index: 999;
 }
 
 /* hero image */
@@ -260,7 +260,7 @@ header .header-right nav a {
     margin-right: 2rem;
 }
 
-.resources h2 {    
+.resources h2 {
     margin: 1rem 0 2rem;
 }
 .resources ul {
@@ -278,6 +278,11 @@ header .header-right nav a {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+.resources img {
+    height: clamp(50px, 50vw, 10rem);
+    width: auto;
 }
 
 
@@ -301,13 +306,13 @@ header .header-right nav a {
     padding-top: 2rem;
 }
 
-#email-form, 
+#email-form,
 #message-form {
     padding-top: 1rem;
 }
 
 
-.form input, 
+.form input,
 .form textarea {
     background-color: rgb(238, 238, 238);
     padding: .5rem;
@@ -323,7 +328,7 @@ header .header-right nav a {
     opacity: .5;
 }
 
-.form input:focus, 
+.form input:focus,
 .form textarea:focus {
     outline: 2px solid var(--primaryColor);
 }
